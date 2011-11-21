@@ -17,6 +17,10 @@
 <html style="padding: 0; margin: 0">
 
 <style type="text/css">
+body {
+    background-color: #866d56;
+}
+
 .center {
     position: absolute;
     left: 0px;
@@ -323,7 +327,7 @@ function tick() {
         <img id="tap_to_start" class="center" width="180px" style="top: 450px; left: -20px;" src="data/images/tap_to_start.png">
     </div>
     <div id="background" class="center" style="width: 1024; height: 600px; background-color: black">
-        <canvas id="canvas" class="center" width="1024px" height="512px" style="width: 1024px; height: 512px; border: none;"></canvas>
+        <canvas id="canvas" class="center" width="1024px" height="512px" style="margin-top: 44px; width: 1024px; height: 512px; border: none;"></canvas>
     </div>
     <iframe onload="init();" id="shaders" src="shaders.html" style="display:none"></iframe>
 </body>
