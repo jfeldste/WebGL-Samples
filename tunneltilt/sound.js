@@ -16,7 +16,7 @@ function playSound(file, loops, volume, pan) {
             playSoundHTML5(file, loops, volume);
         }
     } else if (typeof Audio != undefined) {
-        playSoundHTML5(file, lioops, volume);
+        playSoundHTML5(file, loops, volume);
     }
 }
 
