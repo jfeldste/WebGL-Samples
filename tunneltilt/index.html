@@ -19,7 +19,7 @@
 <style type="text/css">
     body {
         margin-top: 1.0em;
-        background-color: #644c35;
+        background-color: #755d46;
         font-family: Helvetica, Arial, FreeSans, san-serif;
         color: #ffffff;
     }
@@ -316,12 +316,12 @@ function tick() {
 
 <body style="padding: 0; margin: 0">
     <div id="info" style="position: absolute; width: 1024px; height: 512px; z-index: 1; display: none"></div>
-    <div id="intro" onclick="startGame();" style="position: absolute; width: 1024px; height: 512px; z-index: 1; display: none">
+    <div id="intro" onclick="startGame();" style="margin: auto auto; border: 1px solid black; width: 1024px; height: 512px; z-index: 1; display: none">
         <img id="splashImg" src="data/images/splash.png">
         <img id="progressbar" style="position: absolute; top: 475px; left: 500px;" src="data/images/progress_bar.gif">
         <img id="tap_to_start" width="180px" style="position: absolute; top: 450px; left: 412px;" src="data/images/tap_to_start.png">
     </div>
-    <div id="background" style="margin: 0px auto; border: 1px solid black; top: 0px; left: 0px; width: 1024px; height: 600px; background-color: black">
+    <div id="background" style="margin: auto auto; border: 1px solid black; top: 0px; left: 0px; width: 1024px; height: 600px; background-color: black">
         <canvas id="canvas" width="1024px" height="512px" style="margin-top: 44px; width: 1024px; height: 512px; border: none;"></canvas>
     </div>
     <iframe onload="init();" id="shaders" src="shaders.html" style="display:none"></iframe>
