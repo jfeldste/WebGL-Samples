@@ -12,10 +12,10 @@ function playSound(file, loops, volume, pan) {
         // Are we running in WebWorks?
         if (typeof blackberry != 'undefined') {
             blackberry.custom.audio.playFile(file, loops, volume, pan);
-        } else if (Audio != undefined) {
+        } else if (typeof Audio != undefined) {
             playSoundHTML5(file, loops, volume);
         }
-    } else if (Audio != undefined) {
+    } else if (typeof Audio != undefined) {
         playSoundHTML5(file, lioops, volume);
     }
 }
